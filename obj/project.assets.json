@@ -208,24 +208,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tce2022\\.nuget\\packages\\": {}
+    "C:\\Users\\01719367442\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tce2022\\Documents\\exercicio\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\01719367442\\Documents\\Github\\tcern-api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\tce2022\\Documents\\exercicio\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\tce2022\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tce2022\\Documents\\exercicio\\Api\\obj\\",
+      "projectPath": "C:\\Users\\01719367442\\Documents\\Github\\tcern-api\\Api.csproj",
+      "packagesPath": "C:\\Users\\01719367442\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\01719367442\\Documents\\Github\\tcern-api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tce2022\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\01719367442\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

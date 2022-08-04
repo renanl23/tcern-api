@@ -2,11 +2,23 @@
 
 // http://localhost:5000/Dividir?Dividendo=4&divisor=2
 
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      builder =>
+                      {
+                          builder.WithOrigins("http://localhost:4201");
+                      });
+});
+
 var app = builder.Build();
 
-app.UseHttpsRedirection();
-
+app.UseCors(MyAllowSpecificOrigins);
 
 app.MapGet("/Dividir", (HttpRequest request) =>
 {   
